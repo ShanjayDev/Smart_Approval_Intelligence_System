@@ -1,0 +1,22 @@
+{
+    "name": "smart-approval-intelligence",
+    "version": "1.0.0",
+    "description": "AI-powered approval intelligence system with risk prediction and auto-approval",
+    "private": true,
+    "scripts": {
+        "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+        "start": "npm run start:backend & npm run start:frontend",
+        "start:backend": "cd backend && npm start",
+        "start:frontend": "cd frontend && npm start",
+        "build": "cd backend && npm run build && cd ../frontend && npm run build",
+        "test": "cd backend && npm test && cd ../frontend && npm test"
+    },
+    "keywords": [
+        "approval",
+        "intelligence",
+        "ai",
+        "risk-prediction"
+    ],
+    "author": "",
+    "license": "MIT"
+}
